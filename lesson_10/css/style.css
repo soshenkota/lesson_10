@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Pacifico&display=swap');
+body{
+   font-family: "Lato";
+   color: #424551;
+}
+.article__container {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+.article__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 26px;
+}
+.article__image {
+   text-align: center;
+   margin-bottom: 60px;
+}
+.article__image img{
+   max-width: 100%;
+}
+.article__main-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.article__text p{
+   line-height: 160%;
+}
+.article__text p:first-child{
+   margin-bottom: 22px;
+}
+.article__text p:nth-child(2){
+   margin-bottom: 48px;
+}
+blockquote{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   background: url(../img/braces.jpg) 0 0 no-repeat;
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+.article__text *:nth-child(4){
+   margin-bottom: 24px;
+}
+li{
+   line-height: 160%;
+   background: url(../img/check.jpg) 0 6px no-repeat;
+   padding-left: 32px;
+   margin-bottom: 4px;
+}
+ul{
+margin-bottom: 24px;
+}
+.article__text p:last-child{
+margin-bottom: 100px;
+}
